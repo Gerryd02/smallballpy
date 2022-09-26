@@ -9,7 +9,7 @@ pd.options.display.width = 999
 
 batters = pd.read_csv(BATTERS, encoding="utf-8")
 pitchers = pd.read_csv(PITCHERS, encoding="utf-8")
-
+#test
 
 # batters['1B'] = batters['H'] - (batters['2B'] + batters['3B'] + batters['HR'])
 # batters['1B_points'] = batters['1B'] * BATTER_POINTS['1B']
